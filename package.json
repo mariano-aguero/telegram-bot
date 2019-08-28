@@ -1,0 +1,23 @@
+{
+  "name": "telegram-bot",
+  "version": "1.2.1",
+  "description": "Telegram bot",
+  "author": "Mariano ASguero",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  }
+}
